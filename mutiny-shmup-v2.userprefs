@@ -1,14 +1,16 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\infiniteScroll.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\EnemySpawnerController.cs">
     <Files>
-      <File FileName="Assets\infiniteScroll.cs" Line="13" Column="40" />
-      <File FileName="Assets\SpawnerGroupController.cs" Line="13" Column="28" />
-      <File FileName="Assets\Scripts\PlayerController.cs" Line="1" Column="1" />
-      <File FileName="Assets\SimpleBGMoveDown.cs" Line="19" Column="1" />
-      <File FileName="Assets\Scripts\EnemySpawnerController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Score.cs" Line="18" Column="15" />
+      <File FileName="Assets\infiniteScroll.cs" Line="23" Column="5" />
+      <File FileName="Assets\SpawnerGroupController.cs" Line="5" Column="2" />
+      <File FileName="Assets\Scripts\PlayerController.cs" Line="9" Column="37" />
+      <File FileName="Assets\SimpleBGMoveDown.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\EnemySpawnerController.cs" Line="10" Column="31" />
       <File FileName="Assets\Scripts\PlayerShootingScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\CollisionControler.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\CollisionControler.cs" Line="21" Column="27" />
+      <File FileName="Assets\Scripts\SpawnerGroupScript.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

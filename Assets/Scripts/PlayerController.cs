@@ -7,7 +7,6 @@ public class PlayerController : MonoBehaviour {
 	GameObject alus;
 	public float speed;
 	public float rotationSpeed = 10.0f;
-	private float maxRotation = 50;
 	private float maxX = 30;
 	private float minX = -30;
 	private Vector3 moveDirection;

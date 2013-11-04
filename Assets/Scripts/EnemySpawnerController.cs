@@ -7,7 +7,7 @@ public class EnemySpawnerController : MonoBehaviour {
 	
 	
 	public float spawnInterval;
-	public float seqTime = 6.0f;
+	public float seqTime = 10.0f;
 	public float seqInterval = 3.0f;
 	
 	private float timer = 0.0f;

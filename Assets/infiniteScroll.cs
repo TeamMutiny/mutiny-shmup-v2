@@ -19,8 +19,8 @@ public class infiniteScroll : MonoBehaviour {
 	void Update () {
 		
 		
-		Debug.Log(BG2.transform.position.y);
-		Debug.Log((yAxis-165));
+		//Debug.Log(BG2.transform.position.y);
+		//Debug.Log((yAxis-165));
 		if(BG2.transform.position.y < (yAxis-165)){
 			BG1.transform.position = new Vector3(BG2.transform.position.x, BG2.transform.position.y+165,BG2.transform.position.z); 
 			GameObject temp = BG1;

@@ -2,6 +2,7 @@
 using System.Collections;
 
 public class CollisionControler : MonoBehaviour {
+	
 
 	// Use this for initialization
 	void Start () {
@@ -16,6 +17,8 @@ public class CollisionControler : MonoBehaviour {
 	void OnTriggerEnter(Collider other) {
 		if(other.gameObject.tag == "bullet") {
 			Destroy(gameObject);
+			GameObject foo = GameObject.Find("GUI Text");
+			foo.SendMessage("tappo");
 		}
 	}
 }
