@@ -29,7 +29,7 @@ public class SpawnerGroupController : MonoBehaviour {
 		//Debug.Log(spawni);
 		
 		Sequences seq = GetRandomEnum();
-		if(timePassed > 600){
+		if(timePassed > 10){
 			
 			switch(seq){
 			case Sequences.onePass:
@@ -39,9 +39,11 @@ public class SpawnerGroupController : MonoBehaviour {
 			
 			case Sequences.zigzag:
 				spawni.animation.Play("Zigzag");
+				 
 				break;
 			case Sequences.leftRow:
 				spawni.animation.Play("Left row");
+				
 				break;
 				
 			case Sequences.rightRow:
