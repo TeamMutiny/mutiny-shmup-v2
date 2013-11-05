@@ -27,7 +27,10 @@ public class HPbar : MonoBehaviour {
 	}	
 	
 	void GotHit(float damage){		
-		hp -= damage;		
+		hp -= damage;
+		if(hp < 0){
+			Destroy(GameObject.Find("spaceship"));		
+		}
 	}
 	
 	
