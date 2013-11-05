@@ -11,15 +11,11 @@ GameObject:
   - 33: {fileID: 3300000}
   - 65: {fileID: 6500000}
   - 23: {fileID: 2300000}
-  - 114: {fileID: 11400002}
-  - 114: {fileID: 11400004}
-  - 114: {fileID: 11400000}
-  - 54: {fileID: 5400000}
-  - 114: {fileID: 11400006}
   - 111: {fileID: 11100000}
+  - 114: {fileID: 11400000}
   m_Layer: 0
-  m_Name: Basic Enemy
-  m_TagString: Enemy
+  m_Name: Lazershooter1
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31,8 +27,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 12.4431267, z: 0}
-  m_LocalScale: {x: .5, y: 1, z: .5}
+  m_LocalPosition: {x: 0, y: .0548934937, z: 0}
+  m_LocalScale: {x: 1.44747245, y: 1, z: 1.42857146}
   m_Children: []
   m_Father: {fileID: 0}
 --- !u!23 &2300000
@@ -41,13 +37,13 @@ Renderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: e11b16a92feb970448897725bf705009, type: 2}
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -59,22 +55,7 @@ MeshFilter:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
-  m_Mesh: {fileID: 4300000, guid: 1117038f4a8a60e40848958d69fc62fe, type: 3}
---- !u!54 &5400000
-Rigidbody:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100000}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: .0500000007
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!65 &6500000
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -82,8 +63,8 @@ BoxCollider:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
+  m_IsTrigger: 0
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -95,9 +76,9 @@ Animation:
   m_GameObject: {fileID: 100000}
   m_Enabled: 1
   serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 126857362d8750c45b65fd66a78a6da2, type: 2}
+  m_Animation: {fileID: 7400000, guid: 30562b6087a332e45bb973c4951f8ff8, type: 2}
   m_Animations:
-  - {fileID: 7400000, guid: 126857362d8750c45b65fd66a78a6da2, type: 2}
+  - {fileID: 7400000, guid: 30562b6087a332e45bb973c4951f8ff8, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
@@ -113,48 +94,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 100000}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a633f99a22664d52b38ed8e895c4e7d, type: 3}
+  m_Script: {fileID: 11500000, guid: fd3fa4a2545097f409e48a44a001311b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &11400002
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100000}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 997f307c055c546b4ab7ced37732f454, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 5
---- !u!114 &11400004
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100000}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ca3d5971573e24449a7e4f493e7c1626, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 150
---- !u!114 &11400006
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100000}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 11f0a0c8a6fb64d489784b73e75e1d15, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  min_y: -20
-  max_y: 50
-  min_x: -40
-  max_x: 40
+  playerProjectile: {fileID: 100000, guid: 4c25f9e1f6b66b147aead4cdfa589525, type: 2}
+  ShotInterval: .800000012
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
