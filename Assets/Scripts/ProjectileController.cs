@@ -3,6 +3,7 @@ using System.Collections;
 
 public class ProjectileController : MonoBehaviour {
 	
+	public float max_y = 20.0f;
 	private Vector3 direction;
 	
 	// Use this for initialization
@@ -13,7 +14,7 @@ public class ProjectileController : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		transform.Translate(direction);
-		if(transform.position.y > 20.0f) {
+		if(transform.position.y > max_y) {
 			Destroy(gameObject);
 		}
 	}
