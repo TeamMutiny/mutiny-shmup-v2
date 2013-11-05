@@ -15,7 +15,7 @@ public class CollisionControler : MonoBehaviour {
 	}
 	
 	void OnTriggerEnter(Collider other) {
-		if(other.gameObject.tag == "bullet") {
+		if(other.gameObject.tag == "bullet" || other.gameObject.tag == "Player") {
 			Destroy(gameObject);
 			GameObject foo = GameObject.Find("GUI Text");
 			foo.SendMessage("tappo");

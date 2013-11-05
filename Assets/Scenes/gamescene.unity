@@ -124,7 +124,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 128622278}
   m_LocalRotation: {x: -.0444654934, y: -.0515179671, z: .0151293846, w: .997566938}
-  m_LocalPosition: {x: -41, y: 21.6264, z: 1.45114505}
+  m_LocalPosition: {x: -32, y: 21.6264, z: 1.45114505}
   m_LocalScale: {x: 2, y: 3.74181151, z: .498396873}
   m_Children:
   - {fileID: 2108676164}
@@ -1889,6 +1889,10 @@ Prefab:
       propertyPath: rotationSpeed
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 2dea6a4c7049549d1b6a9e2be5ba7bf1, type: 2}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2dea6a4c7049549d1b6a9e2be5ba7bf1, type: 2}
   m_RootGameObject: {fileID: 1691778032}
@@ -3242,9 +3246,10 @@ GameObject:
   - 143: {fileID: 1691778037}
   - 114: {fileID: 1691778038}
   - 114: {fileID: 1691778039}
+  - 114: {fileID: 1691778040}
   m_Layer: 0
   m_Name: spaceship
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3346,6 +3351,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerProjectile: {fileID: 100000, guid: 4c25f9e1f6b66b147aead4cdfa589525, type: 2}
   ShotInterval: .5
+--- !u!114 &1691778040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1691778032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a9ea75dcbf869d419a1439f6c5e1fc9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1762724684
 GameObject:
   m_ObjectHideFlags: 0
