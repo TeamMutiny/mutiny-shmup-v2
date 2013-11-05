@@ -15,6 +15,8 @@ public class EnemySpawnerController : MonoBehaviour {
 	public int spawnAmount = 10;
 	private int spawned = 0;
 	
+	private Quaternion enemy_rotation = Quaternion.identity;
+	
 	private enum State {
 		SPAWNING,
 		STOPPED,
@@ -30,6 +32,8 @@ public class EnemySpawnerController : MonoBehaviour {
 		spawnInterval = scripta.spawnInterval;
 		state = State.SPAWNING;
 		
+		// set enemyrotation through script
+		enemy_rotation.eulerAngles = new Vector3(180.0f, 0.0f,0.0f);
 	}
 	
 	// Update is called once per frame
@@ -55,7 +59,7 @@ public class EnemySpawnerController : MonoBehaviour {
 			if (timer > spawnInterval/10) 
 			{
 				timer = 0.0f;
-				GameObject newenemy = (GameObject) Instantiate(basic_enemy, gameObject.transform.position, Quaternion.identity);
+				GameObject newenemy = (GameObject) Instantiate(basic_enemy, gameObject.transform.position, enemy_rotation);
 					
 				spawned++;
 				
