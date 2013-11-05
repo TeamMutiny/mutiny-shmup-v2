@@ -34,33 +34,33 @@ public class SpawnerGroupController : MonoBehaviour {
 			switch(seq){
 			case Sequences.onePass:
 				
-				spawni.animation.Play("one pass");
-				Debug.Log("one pass");
+				//spawni.animation.Play("one pass");
+			//	Debug.Log("one pass");
 				break;
 			
 			case Sequences.zigzag:
-				spawni.animation.Play("Zigzag");
-				 Debug.Log("Zigzag");
+				//spawni.animation.Play("Zigzag");
+			//	 Debug.Log("Zigzag");
 				break;
 			case Sequences.leftRow:
-				spawni.animation.Play("Left row");
-				Debug.Log("Left row");
+				//spawni.animation.Play("Left row");
+			//	Debug.Log("Left row");
 				break;
 				
 			case Sequences.rightRow:
-				spawni.animation.Play("Right row");
-				Debug.Log("Right row");
+				//spawni.animation.Play("Right row");
+			//	Debug.Log("Right row");
 				break;
 				
 			case Sequences.middleRow:
-				spawni.animation.Play("Middle row");
-				Debug.Log("Middle row");
+				//spawni.animation.Play("Middle row");
+			//	Debug.Log("Middle row");
 				break;
 			
 			
 			case Sequences.reversePass:
-				spawni.animation.Play("reverse pass");
-				Debug.Log("reverse pass");
+				//spawni.animation.Play("reverse pass");
+			//	Debug.Log("reverse pass");
 				break;
 			}
 			timePassed = 0;
