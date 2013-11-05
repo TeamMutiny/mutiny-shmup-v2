@@ -7,6 +7,7 @@ public class PlayerController : MonoBehaviour {
 	GameObject alus;
 	public float speed;
 	public float rotationSpeed = 10.0f;
+	public float maxRotation = 3;
 	private float maxX = 30;
 	private float minX = -30;
 	private Vector3 moveDirection;
@@ -33,10 +34,13 @@ public class PlayerController : MonoBehaviour {
 		}
 		playerController.Move(moveDirection * Time.deltaTime);
 		float rotation = rotationSpeed *Input.GetAxis("Horizontal");
-		
-		if((alus.transform.rotation.y < 0.50 && Input.GetAxis("Horizontal") < 0) || (alus.transform.rotation.y > -0.50 && Input.GetAxis("Horizontal") > 0)){ 
+		if((alus.transform.rotation.y < (maxRotation/10) && Input.GetAxis("Horizontal") < 0) || (alus.transform.rotation.y > (-maxRotation/10) && Input.GetAxis("Horizontal") > 0)){ 
 		rotation = rotationSpeed *Input.GetAxis("Horizontal");
-		alus.transform.Rotate(new Vector3(0,-rotation,0));	
+	
+		alus.transform.Rotate(new Vector3(0,-rotation,0));
+		
+			
+			
 		}
 		if(Input.GetAxis("Horizontal") == 0){
 			if(alus.transform.rotation.y > 0 ){
