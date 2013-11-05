@@ -14,6 +14,7 @@ GameObject:
   - 199: {fileID: 19900000}
   - 33: {fileID: 3300000}
   - 23: {fileID: 2300000}
+  - 114: {fileID: 11400002}
   m_Layer: 0
   m_Name: PlayerProjectile
   m_TagString: bullet
@@ -82,6 +83,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   max_y: 30
+--- !u!114 &11400002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15d551abcf145c14592a4150ebf68185, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BloomColor: {r: 0, g: .171369329, b: .290196091, a: .109803922}
 --- !u!198 &19800000
 ParticleSystem:
   m_ObjectHideFlags: 1

@@ -1554,6 +1554,7 @@ GameObject:
   - 92: {fileID: 581471881}
   - 124: {fileID: 581471880}
   - 81: {fileID: 581471879}
+  - 114: {fileID: 581471884}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1622,6 +1623,24 @@ Transform:
   m_Children:
   - {fileID: 1873854771}
   m_Father: {fileID: 0}
+--- !u!114 &581471884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 581471878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87f000a0a3ea5f349ba4f2b7939fa707, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Quality: 40
+  Smoothing: 10
+  SkyColor: {r: 0, g: 0, b: 0, a: 1}
+  BloomMaterial: {fileID: 2100000, guid: 7d634edf5b7353f45bf8a5b9dc6d2dce, type: 2}
+  RayMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
 --- !u!1 &742274307
 GameObject:
   m_ObjectHideFlags: 0
@@ -1679,7 +1698,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: 274f243eff2f9e0408fb21105b498ed5, type: 2}
+  - {fileID: 2100000, guid: cbe0558fd6465c4409108b65f472b0ba, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -2690,7 +2709,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: 274f243eff2f9e0408fb21105b498ed5, type: 2}
+  - {fileID: 2100000, guid: cbe0558fd6465c4409108b65f472b0ba, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0

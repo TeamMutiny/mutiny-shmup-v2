@@ -45,7 +45,12 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Standard Assets\Particles\Legacy Particles\TimedObjectDestructor.js" />
+     <None Include="Assets\PostProcesses2.0\Shafts\AdditiveRadialBlur_20.shader" />
+     <None Include="Assets\PostProcesses2.0\Shafts\AdditiveRadialBlur_10.shader" />
      <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+     <None Include="Assets\PostProcesses2.0\Bloom\AdditiveBlur.shader" />
+     <None Include="Assets\PostProcesses2.0\Shafts\AdditiveRadialBlur_30.shader" />
+     <None Include="Assets\PostProcesses2.0\Shafts\AdditiveRadialBlur_40.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
