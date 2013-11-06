@@ -64,32 +64,32 @@ public class SpawnerGroupController : MonoBehaviour {
 			case Sequences.onePass:
 				
 				spawni.animation.Play("one pass");
-				Debug.Log("one pass");
+				//Debug.Log("one pass");
 				break;
 			
 			case Sequences.zigzag:
 				spawni.animation.Play("Zigzag");
-				 Debug.Log("Zigzag");
+				// Debug.Log("Zigzag");
 				break;
 			case Sequences.leftRow:
 				spawni.animation.Play("Left row");
-				Debug.Log("Left row");
+				//Debug.Log("Left row");
 				break;
 				
 			case Sequences.rightRow:
 				spawni.animation.Play("Right row");
-				Debug.Log("Right row");
+				//Debug.Log("Right row");
 				break;
 				
 			case Sequences.middleRow:
 				spawni.animation.Play("Middle row");
-				Debug.Log("Middle row");
+				//Debug.Log("Middle row");
 				break;
 			
 			
 			case Sequences.reversePass:
 				spawni.animation.Play("reverse pass");
-				Debug.Log("reverse pass");
+				//Debug.Log("reverse pass");
 				break;
 			}
 			timePassed = 0;
