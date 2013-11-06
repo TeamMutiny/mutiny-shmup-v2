@@ -28,7 +28,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 400002}
   - 111: {fileID: 11100000}
-  - 114: {fileID: 11400002}
   m_Layer: 0
   m_Name: SpawnerGroup
   m_TagString: spawnGroup
@@ -263,22 +262,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   basic_enemy: {fileID: 100000, guid: cf1a5da4381fb40bb804a335b9789cbf, type: 2}
-  spawnInterval: .150000006
+  anim_wrapper: {fileID: 0}
   seqTime: 6
   seqInterval: 3
   spawnAmount: 15
---- !u!114 &11400002
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100002}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 19899db6d0ca15e4f8125d5bb3ecca1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spawnInterval: 7
 --- !u!114 &11400004
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -291,7 +278,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   basic_enemy: {fileID: 100000, guid: cf1a5da4381fb40bb804a335b9789cbf, type: 2}
-  spawnInterval: .150000006
+  anim_wrapper: {fileID: 0}
   seqTime: 6
   seqInterval: 3
   spawnAmount: 15
@@ -307,7 +294,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   basic_enemy: {fileID: 100000, guid: cf1a5da4381fb40bb804a335b9789cbf, type: 2}
-  spawnInterval: .150000006
+  anim_wrapper: {fileID: 0}
   seqTime: 6
   seqInterval: 3
   spawnAmount: 15

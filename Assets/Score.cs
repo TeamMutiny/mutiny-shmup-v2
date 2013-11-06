@@ -11,8 +11,10 @@ public class Score : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		if(score > 0){
 		GameObject foo = GameObject.Find("GUI Text");
-		foo.guiText.text = "Kills: " + score;
+		foo.guiText.text = "Score: " + score;
+		}
 	}
 	
 	void tappo(){

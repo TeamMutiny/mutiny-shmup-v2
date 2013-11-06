@@ -6,7 +6,7 @@ public class EnemySpawnerController : MonoBehaviour {
 	public GameObject basic_enemy;
 	public GameObject anim_wrapper;
 	
-	public float spawnInterval;
+	private float spawnInterval;
 	public float seqTime = 10.0f;
 	public float seqInterval = 3.0f;
 	
@@ -27,7 +27,7 @@ public class EnemySpawnerController : MonoBehaviour {
 	
 	// Use this for initialization
 	void Start () {
-		GameObject groupped =  GameObject.Find("SpawnerGroup");
+		GameObject groupped =  GameObject.Find("Spawner");
 		SpawnerGroupScript scripta = groupped.GetComponent<SpawnerGroupScript>();
 		spawnInterval = scripta.spawnInterval;
 		state = State.SPAWNING;

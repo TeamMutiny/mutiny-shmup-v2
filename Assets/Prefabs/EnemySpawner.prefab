@@ -99,7 +99,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   basic_enemy: {fileID: 100000, guid: cf1a5da4381fb40bb804a335b9789cbf, type: 2}
   anim_wrapper: {fileID: 100000, guid: 599ec77c21ca2864bb1c1031500505c4, type: 2}
-  spawnInterval: .150000006
   seqTime: 6
   seqInterval: 3
   spawnAmount: 15
