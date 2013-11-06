@@ -11,11 +11,9 @@ GameObject:
   - 33: {fileID: 3300000}
   - 65: {fileID: 6500000}
   - 23: {fileID: 2300000}
-  - 114: {fileID: 11400002}
-  - 114: {fileID: 11400004}
   - 114: {fileID: 11400000}
   - 54: {fileID: 5400000}
-  - 114: {fileID: 11400006}
+  - 114: {fileID: 11400002}
   m_Layer: 0
   m_Name: Basic Enemy
   m_TagString: Enemy
@@ -103,39 +101,12 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 997f307c055c546b4ab7ced37732f454, type: 3}
+  m_Script: {fileID: 11500000, guid: d3cecc96b4a84c34abe4a0c5fb01a769, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
---- !u!114 &11400004
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100000}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ca3d5971573e24449a7e4f493e7c1626, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 150
---- !u!114 &11400006
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100000}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 11f0a0c8a6fb64d489784b73e75e1d15, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  min_y: -20
-  max_y: 50
-  min_x: -40
-  max_x: 40
+  bullet: {fileID: 100002, guid: c4b3a3793935c9d4dba29e2a9981d4ee, type: 2}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
