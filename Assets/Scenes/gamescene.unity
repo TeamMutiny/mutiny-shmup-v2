@@ -1698,7 +1698,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: 274f243eff2f9e0408fb21105b498ed5, type: 2}
+  - {fileID: 2100000, guid: cbe0558fd6465c4409108b65f472b0ba, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -1766,6 +1766,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   basic_enemy: {fileID: 100000, guid: cf1a5da4381fb40bb804a335b9789cbf, type: 2}
+  anim_wrapper: {fileID: 100000, guid: 599ec77c21ca2864bb1c1031500505c4, type: 2}
   spawnInterval: .150000006
   seqTime: 6
   seqInterval: 3
@@ -2010,6 +2011,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   basic_enemy: {fileID: 100000, guid: cf1a5da4381fb40bb804a335b9789cbf, type: 2}
+  anim_wrapper: {fileID: 100000, guid: 599ec77c21ca2864bb1c1031500505c4, type: 2}
   spawnInterval: .150000006
   seqTime: 6
   seqInterval: 3
@@ -2097,6 +2099,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   basic_enemy: {fileID: 100000, guid: cf1a5da4381fb40bb804a335b9789cbf, type: 2}
+  anim_wrapper: {fileID: 100000, guid: 599ec77c21ca2864bb1c1031500505c4, type: 2}
   spawnInterval: .150000006
   seqTime: 6
   seqInterval: 3
@@ -2233,6 +2236,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   basic_enemy: {fileID: 100000, guid: cf1a5da4381fb40bb804a335b9789cbf, type: 2}
+  anim_wrapper: {fileID: 100000, guid: 599ec77c21ca2864bb1c1031500505c4, type: 2}
   spawnInterval: .150000006
   seqTime: 6
   seqInterval: 3
@@ -2568,6 +2572,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   basic_enemy: {fileID: 100000, guid: cf1a5da4381fb40bb804a335b9789cbf, type: 2}
+  anim_wrapper: {fileID: 100000, guid: 599ec77c21ca2864bb1c1031500505c4, type: 2}
   spawnInterval: .150000006
   seqTime: 6
   seqInterval: 3
@@ -2713,7 +2718,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: 274f243eff2f9e0408fb21105b498ed5, type: 2}
+  - {fileID: 2100000, guid: cbe0558fd6465c4409108b65f472b0ba, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -2872,6 +2877,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   basic_enemy: {fileID: 100000, guid: cf1a5da4381fb40bb804a335b9789cbf, type: 2}
+  anim_wrapper: {fileID: 100000, guid: 599ec77c21ca2864bb1c1031500505c4, type: 2}
   spawnInterval: .150000006
   seqTime: 6
   seqInterval: 3
@@ -2959,6 +2965,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   basic_enemy: {fileID: 100000, guid: cf1a5da4381fb40bb804a335b9789cbf, type: 2}
+  anim_wrapper: {fileID: 100000, guid: 599ec77c21ca2864bb1c1031500505c4, type: 2}
   spawnInterval: .150000006
   seqTime: 6
   seqInterval: 3
@@ -3394,6 +3401,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   basic_enemy: {fileID: 100000, guid: cf1a5da4381fb40bb804a335b9789cbf, type: 2}
+  anim_wrapper: {fileID: 100000, guid: 599ec77c21ca2864bb1c1031500505c4, type: 2}
   spawnInterval: .150000006
   seqTime: 6
   seqInterval: 3
@@ -3885,6 +3893,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   basic_enemy: {fileID: 100000, guid: cf1a5da4381fb40bb804a335b9789cbf, type: 2}
+  anim_wrapper: {fileID: 100000, guid: 599ec77c21ca2864bb1c1031500505c4, type: 2}
   spawnInterval: .150000006
   seqTime: 6
   seqInterval: 3

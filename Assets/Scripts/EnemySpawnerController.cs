@@ -4,7 +4,7 @@ using System.Collections;
 public class EnemySpawnerController : MonoBehaviour {
 	
 	public GameObject basic_enemy;
-	
+	public GameObject anim_wrapper;
 	
 	public float spawnInterval;
 	public float seqTime = 10.0f;
@@ -59,8 +59,16 @@ public class EnemySpawnerController : MonoBehaviour {
 			if (timer > spawnInterval/10) 
 			{
 				timer = 0.0f;
-				GameObject newenemy = (GameObject) Instantiate(basic_enemy, gameObject.transform.position, enemy_rotation);
-					
+				
+				// location_wrapper moves the animation to correct position 
+				GameObject animation_wrapper = (GameObject) Instantiate(anim_wrapper, new Vector3(0.0f,-20.0f,0.0f), Quaternion.identity);
+				
+				GameObject newenemy = (GameObject) Instantiate(basic_enemy, new Vector3(gameObject.transform.position.x,-20.0f,gameObject.transform.position.z), enemy_rotation);
+				
+				newenemy.transform.parent = animation_wrapper.transform;
+				
+				newenemy.transform.parent.animation.Play("ExpEnterExpExit");	
+				
 				spawned++;
 				
 				if(spawned >= spawnAmount) {
