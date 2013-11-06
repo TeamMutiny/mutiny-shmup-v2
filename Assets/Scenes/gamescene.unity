@@ -2838,6 +2838,42 @@ Prefab:
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 11400004, guid: c3187c5b3f636ba4988b5014276b5f4b, type: 2}
+      propertyPath: anim_wrapper
+      value: 
+      objectReference: {fileID: 100000, guid: 599ec77c21ca2864bb1c1031500505c4, type: 2}
+    - target: {fileID: 11400022, guid: c3187c5b3f636ba4988b5014276b5f4b, type: 2}
+      propertyPath: anim_wrapper
+      value: 
+      objectReference: {fileID: 100000, guid: 599ec77c21ca2864bb1c1031500505c4, type: 2}
+    - target: {fileID: 11400026, guid: c3187c5b3f636ba4988b5014276b5f4b, type: 2}
+      propertyPath: anim_wrapper
+      value: 
+      objectReference: {fileID: 100000, guid: 599ec77c21ca2864bb1c1031500505c4, type: 2}
+    - target: {fileID: 11400010, guid: c3187c5b3f636ba4988b5014276b5f4b, type: 2}
+      propertyPath: anim_wrapper
+      value: 
+      objectReference: {fileID: 100000, guid: 599ec77c21ca2864bb1c1031500505c4, type: 2}
+    - target: {fileID: 11400008, guid: c3187c5b3f636ba4988b5014276b5f4b, type: 2}
+      propertyPath: anim_wrapper
+      value: 
+      objectReference: {fileID: 100000, guid: 599ec77c21ca2864bb1c1031500505c4, type: 2}
+    - target: {fileID: 11400006, guid: c3187c5b3f636ba4988b5014276b5f4b, type: 2}
+      propertyPath: anim_wrapper
+      value: 
+      objectReference: {fileID: 100000, guid: 599ec77c21ca2864bb1c1031500505c4, type: 2}
+    - target: {fileID: 11400016, guid: c3187c5b3f636ba4988b5014276b5f4b, type: 2}
+      propertyPath: anim_wrapper
+      value: 
+      objectReference: {fileID: 100000, guid: 599ec77c21ca2864bb1c1031500505c4, type: 2}
+    - target: {fileID: 11400024, guid: c3187c5b3f636ba4988b5014276b5f4b, type: 2}
+      propertyPath: anim_wrapper
+      value: 
+      objectReference: {fileID: 100000, guid: 599ec77c21ca2864bb1c1031500505c4, type: 2}
+    - target: {fileID: 11400028, guid: c3187c5b3f636ba4988b5014276b5f4b, type: 2}
+      propertyPath: anim_wrapper
+      value: 
+      objectReference: {fileID: 100000, guid: 599ec77c21ca2864bb1c1031500505c4, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c3187c5b3f636ba4988b5014276b5f4b, type: 2}
   m_RootGameObject: {fileID: 837081967}
