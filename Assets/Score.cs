@@ -12,7 +12,7 @@ public class Score : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if(score > 0){
-		GameObject foo = GameObject.Find("GUI Text");
+		GameObject foo = GameObject.Find("Score");
 		foo.guiText.text = "Score: " + score;
 		}
 	}

@@ -19,7 +19,7 @@ public class CollisionControler : MonoBehaviour {
 			
 			 
 			Object klooni = Instantiate(explosion,transform.position,transform.rotation);
-			GameObject foo = GameObject.Find("GUI Text");
+			GameObject foo = GameObject.Find("Score");
 			Destroy(klooni,2);
 			Destroy(gameObject);
 			foo.SendMessage("tappo");
