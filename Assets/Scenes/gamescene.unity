@@ -1940,7 +1940,12 @@ Prefab:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 11400000, guid: 2dea6a4c7049549d1b6a9e2be5ba7bf1, type: 2}
+      propertyPath: maxRotation
+      value: 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 11400002, guid: 2dea6a4c7049549d1b6a9e2be5ba7bf1, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 2dea6a4c7049549d1b6a9e2be5ba7bf1, type: 2}
   m_RootGameObject: {fileID: 1691778032}
   m_IsPrefabParent: 0
@@ -2898,7 +2903,6 @@ GameObject:
   - 95: {fileID: 1691778033}
   - 143: {fileID: 1691778037}
   - 114: {fileID: 1691778038}
-  - 114: {fileID: 1691778039}
   - 114: {fileID: 1691778040}
   m_Layer: 0
   m_Name: spaceship
@@ -2989,21 +2993,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 20
   rotationSpeed: 1
-  maxRotation: 3
---- !u!114 &1691778039
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400002, guid: 2dea6a4c7049549d1b6a9e2be5ba7bf1,
-    type: 2}
-  m_PrefabInternal: {fileID: 813211754}
-  m_GameObject: {fileID: 1691778032}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fd3fa4a2545097f409e48a44a001311b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerProjectile: {fileID: 100000, guid: 4c25f9e1f6b66b147aead4cdfa589525, type: 2}
-  ShotInterval: .5
+  maxRotation: 2
 --- !u!114 &1691778040
 MonoBehaviour:
   m_ObjectHideFlags: 0
