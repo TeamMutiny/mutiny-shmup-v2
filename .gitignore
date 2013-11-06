@@ -17,3 +17,5 @@ Temp
 *.csproj
 *.pidb
 *.sln
+*.userprefs
+*.user
