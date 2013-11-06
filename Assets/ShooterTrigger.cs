@@ -4,6 +4,6 @@ using System.Collections;
 public class ShooterTrigger : MonoBehaviour {
 	
 	void broadcastShoot() {
-		gameObject.BroadcastMessage("shootAtPlayer");
+		gameObject.BroadcastMessage("shootAtPlayer",null,SendMessageOptions.DontRequireReceiver);
 	}
 }
